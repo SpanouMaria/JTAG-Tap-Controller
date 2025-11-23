@@ -2,8 +2,7 @@
 
 This repository contains the full implementation of the **JTAG Boundary Scan Architecture**, based on Exercises **3** and **4** from the course *Testability and Dependability of Electronic Systems* (University of Ioannina).
 
-The project includes all fundamental JTAG components, the TAP controller FSM, Boundary Scan Cells, Instruction Register logic, multiplexers, and integration of the complete boundary scan chain around a CUT (Circuit Under Test).  
-Sources: :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+The project includes all fundamental JTAG components, the TAP controller FSM, Boundary Scan Cells, Instruction Register logic, multiplexers, and integration of the complete boundary scan chain around a CUT (Circuit Under Test). 
 
 ---
 
@@ -37,7 +36,7 @@ According to the assignment:
 - BSC must support CAP/UPD flip-flops, internal logic path, shift path  
 - IR cell provided in assignment specification  
 - BR is a single-bit shift register used when BYPASS instruction is active  
-- All components must match the Quartus schematic (visual verification required) :contentReference[oaicite:4]{index=4}
+- All components must match the Quartus schematic 
 
 ### Testbench Requirements
 
@@ -89,8 +88,6 @@ Main modules:
   - Update_IR  
   - Run_Test  
   - Reset  
-
-Based on the block diagram given in the assignment: :contentReference[oaicite:6]{index=6}
 
 ---
 
