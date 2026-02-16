@@ -111,9 +111,8 @@ Waveforms from all operations were captured and analyzed.
 
 - **HDL:** VHDL  
 - **Development Tools:** Quartus Prime  
-- **Simulation:** ModelSim / QuestaSim  
+- **Simulation:** ModelSim
 - **Schematic Verification:** Quartus RTL Viewer & Technology Map Viewer  
-- **Target:** Generic FPGA architecture  
 
 ---
 
